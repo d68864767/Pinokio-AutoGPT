@@ -1,0 +1,43 @@
+{
+  "states": {
+    "learning": {
+      "description": "State where Pinokio AutoGPT is actively learning and updating its knowledge base.",
+      "transitions": {
+        "toDecisionMaking": {
+          "trigger": "completion of learning task",
+          "action": "update knowledge base"
+        },
+        "toSelfModification": {
+          "trigger": "identification of potential improvement",
+          "action": "initiate self-modification process"
+        }
+      }
+    },
+    "decisionMaking": {
+      "description": "State where Pinokio AutoGPT is making decisions based on its current knowledge base.",
+      "transitions": {
+        "toLearning": {
+          "trigger": "identification of knowledge gap",
+          "action": "initiate learning process"
+        },
+        "toSelfModification": {
+          "trigger": "identification of potential improvement",
+          "action": "initiate self-modification process"
+        }
+      }
+    },
+    "selfModification": {
+      "description": "State where Pinokio AutoGPT is modifying its own algorithms and parameters.",
+      "transitions": {
+        "toLearning": {
+          "trigger": "completion of self-modification",
+          "action": "return to learning state"
+        },
+        "toDecisionMaking": {
+          "trigger": "completion of self-modification",
+          "action": "return to decision-making state"
+        }
+      }
+    }
+  }
+}

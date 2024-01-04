@@ -1,0 +1,56 @@
+{
+  "algorithmManagement": {
+    "algorithmDevelopment": {
+      "description": "Processes for developing new algorithms for learning and decision-making.",
+      "methods": {
+        "activeDevelopment": {
+          "description": "Actively develops new algorithms based on identified knowledge gaps or improvements.",
+          "trigger": "identification of knowledge gap or potential improvement"
+        },
+        "passiveDevelopment": {
+          "description": "Passively refines existing algorithms based on ongoing operations and interactions.",
+          "trigger": "ongoing operation"
+        }
+      }
+    },
+    "algorithmStorage": {
+      "description": "Handles storage of developed algorithms.",
+      "methods": {
+        "shortTermStorage": {
+          "description": "Stores algorithms temporarily for immediate use in learning and decision-making.",
+          "capacity": "limited"
+        },
+        "longTermStorage": {
+          "description": "Stores algorithms permanently for future reference and learning.",
+          "capacity": "unlimited"
+        }
+      }
+    },
+    "algorithmProcessing": {
+      "description": "Processes raw algorithms into a format suitable for learning and decision-making.",
+      "methods": {
+        "preprocessing": {
+          "description": "Cleans and formats raw algorithms.",
+          "trigger": "algorithm development"
+        },
+        "featureExtraction": {
+          "description": "Identifies and extracts relevant features from preprocessed algorithms.",
+          "trigger": "completion of preprocessing"
+        }
+      }
+    },
+    "algorithmEvaluation": {
+      "description": "Evaluates the quality and effectiveness of algorithms for learning and decision-making.",
+      "methods": {
+        "effectivenessCheck": {
+          "description": "Checks the effectiveness of algorithms based on current knowledge base and goals.",
+          "trigger": "completion of feature extraction"
+        },
+        "qualityCheck": {
+          "description": "Checks the quality of algorithms based on predefined quality criteria.",
+          "trigger": "completion of feature extraction"
+        }
+      }
+    }
+  }
+}

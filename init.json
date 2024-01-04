@@ -1,0 +1,10 @@
+{
+  "name": "Pinokio AutoGPT",
+  "version": "1.0",
+  "initialState": {
+    "learningMode": "active",
+    "operationMode": "autonomous",
+    "dataStorage": {},
+    "algorithmSet": {}
+  }
+}

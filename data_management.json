@@ -1,0 +1,56 @@
+{
+  "dataManagement": {
+    "dataAcquisition": {
+      "description": "Processes for acquiring new data for learning and decision-making.",
+      "methods": {
+        "activeLearning": {
+          "description": "Actively seeks out new data based on identified knowledge gaps.",
+          "trigger": "identification of knowledge gap"
+        },
+        "passiveLearning": {
+          "description": "Passively collects new data from ongoing operations and interactions.",
+          "trigger": "ongoing operation"
+        }
+      }
+    },
+    "dataStorage": {
+      "description": "Handles storage of acquired data and insights.",
+      "methods": {
+        "shortTermStorage": {
+          "description": "Stores data temporarily for immediate use in learning and decision-making.",
+          "capacity": "limited"
+        },
+        "longTermStorage": {
+          "description": "Stores data permanently for future reference and learning.",
+          "capacity": "unlimited"
+        }
+      }
+    },
+    "dataProcessing": {
+      "description": "Processes raw data into a format suitable for learning and decision-making.",
+      "methods": {
+        "preprocessing": {
+          "description": "Cleans and formats raw data.",
+          "trigger": "data acquisition"
+        },
+        "featureExtraction": {
+          "description": "Identifies and extracts relevant features from preprocessed data.",
+          "trigger": "completion of preprocessing"
+        }
+      }
+    },
+    "dataEvaluation": {
+      "description": "Evaluates the quality and relevance of data for learning and decision-making.",
+      "methods": {
+        "relevanceCheck": {
+          "description": "Checks the relevance of data based on current knowledge base and goals.",
+          "trigger": "completion of feature extraction"
+        },
+        "qualityCheck": {
+          "description": "Checks the quality of data based on predefined quality criteria.",
+          "trigger": "completion of feature extraction"
+        }
+      }
+    }
+  }
+}
